@@ -3,14 +3,14 @@ import asyncio
 import aiohttp
 import pytest
 
-from chia.protocols.shared_protocol import protocol_version
-from chia.server.outbound_message import NodeType
-from chia.server.server import ChiaServer, ssl_context_for_client
-from chia.server.ws_connection import WSChiaConnection
-from chia.ssl.create_ssl import generate_ca_signed_cert
-from chia.types.peer_info import PeerInfo
+from fibo.protocols.shared_protocol import protocol_version
+from fibo.server.outbound_message import NodeType
+from fibo.server.server import ChiaServer, ssl_context_for_client
+from fibo.server.ws_connection import WSChiaConnection
+from fibo.ssl.create_ssl import generate_ca_signed_cert
+from fibo.types.peer_info import PeerInfo
 from tests.block_tools import test_constants
-from chia.util.ints import uint16
+from fibo.util.ints import uint16
 from tests.setup_nodes import (
     bt,
     self_hostname,

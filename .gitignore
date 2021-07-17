@@ -88,7 +88,7 @@ main.sym
 *.recompiled
 
 # Dev config react
-# chia-blockchain-gui/src/dev_config.js
+# fibo-blockchain-gui/src/dev_config.js
 # React built app
 chia-blockchain-gui/.eslintcache
 chia-blockchain-gui/build

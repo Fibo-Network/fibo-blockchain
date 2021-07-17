@@ -51,7 +51,7 @@ proofs of space during testing. The next time tests are run, this will not be ne
 ```bash
 . ./activate
 pip install ".[dev]"
-black chia tests && mypy chia tests && flake8 chia tests
+black fibo tests && mypy fibo tests && flake8 fibo tests
 py.test tests -v --durations 0
 ```
 

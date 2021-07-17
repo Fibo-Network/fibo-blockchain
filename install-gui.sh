@@ -14,7 +14,7 @@ if [ "$(id -u)" = 0 ]; then
 	exit 1
 fi
 
-# Allows overriding the branch or commit to build in chia-blockchain-gui
+# Allows overriding the branch or commit to build in fibo-blockchain-gui
 SUBMODULE_BRANCH=$1
 
 UBUNTU=false
@@ -80,7 +80,7 @@ if [ ! "$CI" ]; then
 	echo "Running git submodule update."
 	echo ""
 	git submodule update
-	cd chia-blockchain-gui
+	cd fibo-blockchain-gui
 
 	if [ "$SUBMODULE_BRANCH" ];
 	then
