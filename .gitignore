@@ -90,11 +90,11 @@ main.sym
 # Dev config react
 # fibo-blockchain-gui/src/dev_config.js
 # React built app
-chia-blockchain-gui/.eslintcache
-chia-blockchain-gui/build
+fibo-blockchain-gui/.eslintcache
+fibo-blockchain-gui/build
 build_scripts/dist
 build_scripts/*.Dmg
-chia-blockchain-gui/src/locales/_build
+fibo-blockchain-gui/src/locales/_build
 build_scripts\win_build
 build_scripts/win_build
 win_code_sign_cert.p12
